@@ -1,0 +1,151 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-size:30px;
+	color:#00bfff;
+	background:url("background.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+	background-size:cover;
+	backface-visibility:hidden;
+	height:100%;
+	width:100%;
+	font-family: <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">;
+   transition:background 2s !important;
+}
+
+/*HEADER NAV*/
+#header-nav{
+	background-image:url("header1.jpg");/*yellow*/
+	position:relative;
+	border-radius:0;
+	padding:0px;
+	height:100px;
+}
+#header-nav a:nth-child(1){
+	position:top left;
+	font-size:10px;
+
+
+}
+
+#logo-img{
+	background:url("images1.jpg") no-repeat;
+	width:112.5px;
+	height:75px;
+	margin:12.5px 5px 12.5px 12.5px;
+	border-radius:30px;
+	border:2px solid white;
+}
+
+span{
+	color:#D8BFD8;
+	font:0.5em;
+}
+.navbar-brand h1{
+	font-family:"Comic Sans MS",cursive,sans-serif;
+
+  	font-size: 72px;
+    background: -webkit-linear-gradient(red,red);
+    background: -moz-linear-gradient(red,red);
+    background: -o-linear-gradient(red,red);
+    background: -ms-linear-gradient(red,red);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	-ms-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	-o-text-fill-color: transparent;
+	-ms-text-fill-color: transparent;
+	font-size:40px;
+	font-style:oblique;
+	font-stretch:ultra-expanded;
+	text-transform:uppercase;
+	font-weight:900;
+	text-shadow: 2px 2px 2px #f0f5d8;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:.75;
+	outline:5px;
+
+
+}
+.navbar-brand a:hover ,.navbar-brand a:link{
+	text-decoration-line:none;
+
+}
+.navbar-brand p{
+	color:#000;
+	text-transform:uppercase;
+	font-size:.7em;
+	margin-top:15px;
+}
+.navbar-brand a span{
+	vertical-align:middle;
+}
+#nav-list{
+margin-top: 35px;
+float:right;
+
+}
+@media(max-width:772px){
+	#nav-list{
+		background-image:url("menu.jfif");
+		background-position: center;
+		background-size: cover;
+		border-radius:2px;
+		border-style: smooth;
+	}
+#logo-img{
+	background:url("images1.jpg") no-repeat;
+	background-position: center;
+	background-size:cover;
+	width:56.25px;
+	height:37.5px;
+	margin:12.5px 5px 12.5px 12.5px;
+	border-radius:20px;
+	border:2px solid white;
+}
+}
+#nav-list a{
+	color:#951C49;
+	text-align: left;
+	font-size:18px;
+
+}
+#nav-list a:nth-child(3){
+	text-align:top;
+}
+#nav-list a:hover{
+	color:#951C49;
+}
+#nav-list a:hover,#nav-list a:link ,#nav-list a:visited{
+	height:50px;
+	width:125px;
+}
+#nav-list a span{
+	font-size:20px;
+	color:#951C49;
+}
+#phone{
+	margin-top: 5px;
+}
+
+
+
+.navbar-header button.navbar-toggle{
+
+border:none;
+
+}
+
+
+.navbar-header span.icon-bar{
+	border:2px solid maroon;
+	height:0px;
+	width:20px;
+}
